@@ -90,8 +90,8 @@ const Home = () => {
         <button type="button" onClick={onSearch}>
           Search
         </button>
-        {renderResults()}
       </SearchButtonWrapper>
+      {renderResults()}
     </MainPageLayout>
   );
 };
